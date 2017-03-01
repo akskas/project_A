@@ -2,8 +2,8 @@ jobs:
   - name: nginx-manifest
     type: manifest
     steps:
-      - IN: nginx-image_migrate
-      - IN: trigger_migrate
+      - IN: nginx-image
+      - IN: trigger
 
   - name: ddc-deploy_migrate
     type: deploy
