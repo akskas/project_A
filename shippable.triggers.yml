@@ -1,5 +1,5 @@
 triggers:
-   - name: trigger
+   - name: trigger_migrate
      type: trigger
      version:
        counter: 1
